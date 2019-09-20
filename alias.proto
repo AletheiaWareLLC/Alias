@@ -19,7 +19,6 @@ syntax = "proto3";
 option go_package = "github.com/AletheiaWareLLC/aliasgo";
 option java_outer_classname = "AliasProto";
 option java_package = "com.aletheiaware.alias";
-option optimize_for = LITE_RUNTIME;
 
 package alias;
 
