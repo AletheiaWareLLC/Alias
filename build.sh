@@ -17,4 +17,4 @@
 set -e
 set -x
 
-protoc --proto_path=../BC --proto_path=. alias.proto $@
+protoc --proto_path=../Crypto --proto_path=. alias.proto $@

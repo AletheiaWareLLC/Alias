@@ -22,10 +22,10 @@ option java_package = "com.aletheiaware.alias";
 
 package alias;
 
-import "bc.proto";
+import "crypto.proto";
 
 message Alias {
     string alias = 1;
     bytes public_key = 2;
-    bc.PublicKeyFormat public_format = 3;
+    crypto.PublicKeyFormat public_format = 3;
 }
