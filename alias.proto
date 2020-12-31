@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/AletheiaWareLLC/aliasgo";
+option go_package = "aletheiaware.com/aliasgo";
 option java_outer_classname = "AliasProto";
 option java_package = "com.aletheiaware.alias";
 
